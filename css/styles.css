@@ -1,0 +1,78 @@
+body {
+    background-color: #fafafa;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 4em;
+    margin-bottom: 0px;
+}
+
+h2 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 1.8em;
+    margin-top: 0px;
+    color: #424242;
+}
+
+#journalist {
+    font-family: 'News Cycle', sans-serif;
+}
+
+#coder {
+    font-family: 'Source Code Pro', monospace;
+}
+
+#creator {
+    font-family: 'Nothing You Could Do', cursive;
+}
+
+#navigation {
+    font-size: 2.5em;
+    font-family: 'Rajdhani', sans-serif;
+    text-align: center;
+    
+    
+    margin-top: 10px;
+}
+
+#navigation a{
+    color: #000;
+}
+
+#navigation a:hover{
+    text-decoration: none;
+    font-style: italic;
+}
+
+
+#line-left {
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(black));
+}
+
+.line {
+    margin: 10px 5px;
+    height: 1px;
+    background: black;
+    width: 20%;
+    display: inline-block;
+}
+
+#line-right {
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(black), to(white));
+}
+
+#nav-links {
+    display: inline-block;
+}
+
+@media (max-width: 740px) {
+    .line {
+        width:8%;
+    }
+    #navigation {
+        font-size: 1.9em;
+    }
+}

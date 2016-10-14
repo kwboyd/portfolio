@@ -1,0 +1,50 @@
+[
+    {
+        "title": "Front-end Portfolio",
+        "image": "img/clouds.png",
+        "skills": "Bootstrap, responsive design",
+        "description": "A portfolio with a focus on front-end development and design.",
+        "link": "/static/fe-portfolio.html",
+        "repo": "https://github.com/kwboyd/cloud-portfolio"
+    },
+    {
+        "title": "Data Visualization",
+        "image": "img/data.png",
+        "skills": "Data visualization, highcharts and highmaps, AJAX, JSON, XML ",
+        "description": "A project done for class to visualize data using AJAX to create charts and maps. This site uses CSS from the LA Times for educational purposes and to fulfill the assignment guidelines, but I am not in any way affiliated with them.",
+        "link": "/static/project3.html",
+        "repo": "https://github.com/kwboyd/project3"
+    },
+    {
+        "title": "jQuery Slider",
+        "image": "img/slider.png",
+        "skills": "Javascript, jQuery, plugins, After Effects animation",
+        "description": "An educational interactive slider done for class. This was my first foray into animation and I created all gifs in Photoshop and After Effects. One slide features a draggable object that changes the CSS of that slide, created using jQuery. ",
+        "link": "/static/project2.html",
+        "repo": "https://github.com/kwboyd/project2"
+    },
+    {
+        "title": "Social Media API app",
+        "image": "img/loop.png",
+        "skills": "Social Media APIs, PHP, Javascript",
+        "description": "A mobile site that pulls in the top 5 trends in America from Twitter, then displays posts with those tags on Twitter, Instagram, and Tumblr. It uses PHP and Javascript to parse the JSON data pulled from each site. (Instagram recently created more restrictions for their API, so the Instagram section currently does not function.) ",
+        "link": "/static/project4.html",
+        "repo": "https://github.com/kwboyd/socialmedia"
+    },
+    {
+        "title": "CSS dashboard",
+        "image": "img/css.png",
+        "skills": "CSS, bootstrap, images sprites",
+        "description": "This was a class project where we were given an image of a site in Photoshop and told to rebuild it as closely as possible as a responsive site.",
+        "link": "/project1.html",
+        "repo": "https://github.com/kwboyd/j586-project1"
+    },
+    {
+        "title": "The JK Business",
+        "image": "img/jk.png",
+        "skills": "Bootstrap, responsive design, dynamic charts",
+        "description": "An educational site about the teenage dating industry in Japan, done as part of a group project while I studied abroad at Keio University. It uses highcharts to display data from our survey results.",
+        "link": "/static/jk.html",
+        "repo": "https://github.com/kwboyd/jk"
+    }
+]

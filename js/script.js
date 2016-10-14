@@ -1,25 +1,4 @@
 
-  //window.onload = function() { init() };
-  //
-  //var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/1irx4_Xs7oJsJ17Cbcf4FjSZ0ukKR4U-TMVVhCXCgc4Q/pubhtml';
-  //
-  //function init() {
-  //  Tabletop.init( { key: public_spreadsheet_url,
-  //                   callback: showInfo,
-  //                   simpleSheet: true } )
-  //}
-  //
-  //function showInfo(data, tabletop) {
-  //  console.log(data);
-  //  dataLength = data.length;
-  //  for (i=0; i<dataLength; i++) {
-  //      $("#test").append (
-  //          "<p>" + data[i].title + "</p>"
-  //      )
-  //  }
-  //  
-  //}
-
 $(document).ready(function()  {
     getPortfolio();
 })

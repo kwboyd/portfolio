@@ -7,6 +7,7 @@ h1 {
     font-family: 'Rajdhani', sans-serif;
     font-size: 4em;
     margin-bottom: 0px;
+    margin-top: 5px;
 }
 
 h2 {
@@ -16,6 +17,7 @@ h2 {
     margin-top: 0px;
     color: #424242;
 }
+
 
 #journalist {
     font-family: 'News Cycle', sans-serif;
@@ -33,9 +35,8 @@ h2 {
     font-size: 2.5em;
     font-family: 'Rajdhani', sans-serif;
     text-align: center;
-    
-    
     margin-top: 10px;
+    margin-bottom: 13px;
 }
 
 #navigation a{
@@ -64,15 +65,87 @@ h2 {
     background: -webkit-gradient(linear, 0 0, 100% 0, from(black), to(white));
 }
 
-#nav-links {
-    display: inline-block;
+.portfolio-img-box {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 12px;
 }
 
-@media (max-width: 740px) {
+.portfolio-img {
+    margin: 0px auto;
+    display: block;
+}
+
+h3 {
+    width: 370px;
+    background-color: rgba(0,0,0,0.7);
+    font-size: 1.1em;
+    color: white;
+    padding: 6px 0px 6px 17px;
+    font-family: 'Rajdhani', sans-serif;
+    margin: 0px auto 13px;
+}
+
+.site-link {
+    background-color: #6ba4bd;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 6px 20px;
+}
+
+
+a:hover, a:focus {
+    text-decoration: none;
+    color: #bbb;
+}
+
+#link-box {
+    text-align:center;
+}
+
+#live {
+    margin-right: 10px;
+}
+
+#repo {
+    margin-left: 10px;
+}
+
+@media (max-width: 803px) {
     .line {
         width:8%;
     }
     #navigation {
         font-size: 1.9em;
+    }
+}
+
+@media (max-width: 775px) and (min-width:544px) {
+    .portfolio-img {
+        max-width: 270px;
+    }
+    .site-link {
+        font-size: 1.2em;
+        padding: 6px 15px;
+    }
+    #live {
+        margin-left: 5%;
+    }
+    h3 {
+        width: 270px;
+    }
+}
+
+@media (max-width: 450px) {
+    h2 {
+        font-size: 1.6em;
+    }
+    #navigation {
+        font-size: 1.6em;
     }
 }

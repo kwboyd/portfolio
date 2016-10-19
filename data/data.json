@@ -34,7 +34,7 @@
     {
         "title": "CSS dashboard",
         "image": "img/css.png",
-        "skills": "CSS, bootstrap, images sprites",
+        "skills": "CSS, Bootstrap, images sprites",
         "description": "This was a class project where we were given an image of a site in Photoshop and told to rebuild it as closely as possible as a responsive site.",
         "link": "/project1.html",
         "repo": "https://github.com/kwboyd/j586-project1"

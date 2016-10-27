@@ -1,4 +1,5 @@
-
+var emailName = "kwboyd95";
+var domainName = "gmail.com";
 $(document).ready(function()  {
     getPortfolio();
     $("#works").click(function() {
@@ -11,11 +12,12 @@ $(document).ready(function()  {
         $("#about-container").fadeIn("fast");
         $("#resume-container").hide();
     })
-    $("#contact").click(function(){
+    $("#resume").click(function(){
         $("#about-container").hide();
         $("#works-container").hide();
         $("#resume-container").fadeIn("fast");
     })
+    document.getElementById("email").innerHTML = "Email: " + emailName + "@" + domainName;
 })
 var portfolioHtml = [];
 function getPortfolio() {
@@ -25,10 +27,10 @@ function getPortfolio() {
                     portfolioHtml += "<a class='img-link' href='" + data.link + "'>"
                     portfolioHtml += "<div class='portfolio-img-box'> <img class='portfolio-img' src='" + data.image + "' alt='" + data.title + "'>";
                     portfolioHtml += "<h3 class='img-title'>" + data.title + "</h3></a></div>";
-                    portfolioHtml += "<div id='link-box'><a class='site-link' id='live' href='" + data.link + "'> VISIT SITE" + "</a>";
-                    portfolioHtml += "<a class='site-link' id='repo' href='" + data.repo + "'> VISIT REPO" + "</a></div>";
-                    portfolioHtml += "<p class='skills'><strong>Skills: " + data.skills + "</strong></p>";
-                    portfolioHtml += "<p>" + data.description + "</p></div>";
+                    portfolioHtml += "<div class='link-box'><a class='site-link live' href='" + data.link + "'> VISIT SITE" + "</a>";
+                    portfolioHtml += "<a class='site-link repo' href='" + data.repo + "'> VISIT REPO" + "</a></div>";
+                    portfolioHtml += "<p class='skills'>Skills: " + data.skills + "</p>";
+                    portfolioHtml += "<p class='description'>" + data.description + "</p></div>";
                     });
             $("#works-container").append(portfolioHtml);
         })
